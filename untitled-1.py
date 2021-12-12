@@ -20,4 +20,4 @@ v = np.array([[c, c, c],
               [c, c, c],
               [c, c, c]]) * units('m/s')
 
-print(metpy.calc.frontogenesis(pottemp, u, v, dx=dx, dy=dy)); print('Heeeeeeeeeeeeeellooooooooooooooooooooooo')
+print(metpy.calc.frontogenesis(pottemp, u, v, dx=dx, dy=dy))
